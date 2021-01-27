@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# dir that script locate in
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# remove all from user dir
+rm -rf $DIR/user/
+
+#create dirs
+mkdir $DIR/user
+mkdir $DIR/user/.config
+mkdir $DIR/user/.themes
+mkdir $DIR/user/.scripts
+
+# copy configs
+cp -r ~/.config/i3 $DIR/user/.config/
+cp -r ~/.config/polybar $DIR/user/.config/
+cp -r ~/.config/sakura $DIR/user/.config/
+
+# copy scripts
+cp -r ~/.scripts $DIR/user/
+
+# copy themes
+cp -r ~/.themes $DIR/user/
+
+# copy vimrc
+cp ~/.vimrc $DIR/user/
