@@ -2,6 +2,14 @@
 My arch setup
 
 
+# installation
+```
+git clone https://github.com/e6000000000/arch_setup.git
+cd arch_setup
+./setup.sh
+reboot
+```
+
 # apps settings
 ## vivaldi extensions
 * uBlock Origin

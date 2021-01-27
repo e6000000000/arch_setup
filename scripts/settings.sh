@@ -1,1 +1,0 @@
-systemctl enable systemd-timesyncd.service

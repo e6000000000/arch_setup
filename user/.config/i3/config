@@ -42,7 +42,7 @@ exec --no-startup-id xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse
 exec --no-startup-id ~/.scripts/anime_bg/anime_bg.sh
 
 # apps
-exec --no-startup-id compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=2 --fade-out-step=2
+exec --no-startup-id compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=0 --fade-out-step=0
 exec --no-startup-id flameshot
 exec --no-startup-id discord
 exec --no-startup-id telegram-desktop

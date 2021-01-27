@@ -1,3 +1,5 @@
+xorg
+networkmanager
 i3-wm
 sakura
 vivaldi
@@ -18,4 +20,8 @@ obs-studio
 telegram-desktop
 discord
 xarchiver
-polybar
+python3
+python-pip
+code
+git
+vim
