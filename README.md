@@ -1,6 +1,8 @@
 # arch_setup
 My arch setup
 
+![](https://i.imgur.com/5QtLS5S.png)
+
 
 # installation
 ```
