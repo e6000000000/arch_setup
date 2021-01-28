@@ -107,7 +107,7 @@ date =
 date-alt = "%m.%d"
 
 time = %I:%M %P
-time-alt = 
+time-alt = %I:%M %P 
 
 label = %date% %time%
 
