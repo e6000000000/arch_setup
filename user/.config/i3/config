@@ -4,7 +4,7 @@
 
 # variables_____________________________________________________________________
 set $mod Mod4
-set $TERMINAL sakura
+set $TERMINAL kitty
 
 # colors
 set $bg_color #000000
@@ -28,7 +28,6 @@ set $ws10 "10:十"
 bindsym $mod+Return exec $TERMINAL
 bindsym $mod+d exec "dmenu_run -nf '$tx_color' -nb '$bg_color' -sb '$fg_color' -sf '$tx_color' -fn 'DejaVu Sans-10' -p ''"
 bindsym Print exec --no-startup-id flameshot gui
-bindsym $mod+x exec mousepad
 bindsym $mod+c exec pcmanfm
 
 
@@ -42,7 +41,7 @@ exec --no-startup-id xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse
 exec --no-startup-id ~/.scripts/anime_bg/anime_bg.sh
 
 # apps
-exec --no-startup-id compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=0 --fade-out-step=0
+exec --no-startup-id compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=1 --fade-out-step=1
 exec --no-startup-id flameshot
 exec --no-startup-id discord
 exec --no-startup-id telegram-desktop
@@ -59,7 +58,6 @@ assign [class="discord"] $ws9
 assign [class="Telegram"] $ws8
 
 # special windows preferences
-for_window [class="Mousepad"] floating enable
 for_window [class="flameshot"] floating enable
 
 

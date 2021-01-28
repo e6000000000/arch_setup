@@ -2,11 +2,10 @@ xorg
 networkmanager
 i3-wm
 dmenu
-sakura
+kitty
 vivaldi
 torbrowser-launcher
 flameshot
-mousepad
 alsa-utils
 pulseaudio
 feh
@@ -26,3 +25,9 @@ python-pip
 code
 git
 vim
+screenfetch
+gtk3
+sassc
+gtk-engine-murrine
+gnome-themes-extra
+breeze-icons

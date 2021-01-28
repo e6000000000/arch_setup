@@ -1,8 +1,17 @@
 # arch_setup
 My arch setup
 
-![](https://i.imgur.com/5QtLS5S.png)
+![](https://i.imgur.com/poRBL6j.png)
 
+task               | app
+------------------ | ---
+os                 | arch
+shell              | fish
+de                 | i3-wm
+browser            | vivaldi
+filemanager        | pcmanfm
+code editor        | code
+text editor        | vim
 
 # installation
 ```
@@ -11,6 +20,8 @@ cd arch_setup
 ./setup.sh
 reboot
 ```
+to install nvidia drivers run `bash scripts/nvidia_drivers.sh`
+if your gpu is not nvidia maybe you shood remove first 2 lines in your `.xinitrc`
 
 # apps settings
 ## vivaldi extensions
@@ -25,7 +36,7 @@ reboot
 * AudioContext Fingerprint Defender
 * uBlock Origin
 
-## vscode
-Option | Choice
------- | ------
-Theme  | VDark
+## vscode extensions
+* Theme - Abyss
+* GitLens
+* Python

@@ -1,15 +1,19 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 # dir that script locate in
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # install paru
-#/usr/bin/env $DIR/scripts/paru_install.sh
+bash $DIR/scripts/paru_install.sh
 
 # install apps
-#/usr/bin/env $DIR/scripts/install_apps.sh
+bash $DIR/scripts/install_apps.sh
 
 # enable services
-#/usr/bin/env $DIR/scripts/services.sh
+bash $DIR/scripts/services.sh
 
+# install fish
+bash $DIR/scripts/install_fish.sh
+
+# copy config files
 cp -r $DIR/user ~/
