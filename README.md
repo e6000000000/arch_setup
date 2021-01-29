@@ -2,22 +2,23 @@
 My arch setup
 
 ![](https://i.imgur.com/poRBL6j.png)
+![](https://i.imgur.com/1CtQREk.png)
 
 task               | app
 ------------------ | ---
 os                 | arch
 shell              | fish
 de                 | i3-wm
-browser            | vivaldi
+browser            | vivaldi & firefox
 filemanager        | pcmanfm
-code editor        | code
+code editor        | visual-studio-code-insiders
 text editor        | vim
 
 # installation
 ```
 git clone https://github.com/e6000000000/arch_setup.git
 cd arch_setup
-./setup.sh
+bash setup.sh
 reboot
 ```
 to install nvidia drivers run `bash scripts/nvidia_drivers.sh`
@@ -37,6 +38,6 @@ if your gpu is not nvidia maybe you shood remove first 2 lines in your `.xinitrc
 * uBlock Origin
 
 ## vscode extensions
-* Theme - Abyss
+* Theme - Black Ocean
 * GitLens
 * Python

@@ -29,6 +29,9 @@ bindsym $mod+Return exec $TERMINAL
 bindsym $mod+d exec "dmenu_run -nf '$tx_color' -nb '$bg_color' -sb '$fg_color' -sf '$tx_color' -fn 'DejaVu Sans-10' -p ''"
 bindsym Print exec --no-startup-id flameshot gui
 bindsym $mod+c exec pcmanfm
+bindsym $mod+x exec code-insiders
+bindsym $mod+z exec vivaldi-stable
+
 
 
 # autorun_______________________________________________________________________
@@ -59,6 +62,10 @@ assign [class="Telegram"] $ws8
 
 # special windows preferences
 for_window [class="flameshot"] floating enable
+assign [class="discord"] $ws9
+assign [class="discord"] $ws9
+assign [class="Telegram"] $ws8
+assign [class="Telegram"] $ws8
 
 
 # font__________________________________________________________________________

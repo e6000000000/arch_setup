@@ -26,7 +26,5 @@ in: /etc/mkinitcpio.conf
 set modules: MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 
 then run: sudo mkinitcpio -P linux
-
-to remove tearing: nvidia-settings --assign CurrentMetaMode=\"nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }\"
 "
 
