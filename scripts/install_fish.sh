@@ -10,3 +10,6 @@ sudo pacman -S --noconfirm fish
 # setup fish as default shell
 echo /bin/fish | sudo tee -a /etc/shells
 chsh -s /bin/fish
+
+# start fish
+fish

@@ -22,7 +22,7 @@ bash setup.sh
 reboot
 ```
 to install nvidia drivers run `bash scripts/nvidia_drivers.sh`
-if your gpu is not nvidia maybe you shood remove first 2 lines in your `.xinitrc`
+if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc`
 
 # apps settings
 ## vivaldi extensions

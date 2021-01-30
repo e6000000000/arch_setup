@@ -16,4 +16,4 @@ bash $DIR/scripts/services.sh
 bash $DIR/scripts/install_fish.sh
 
 # copy config files
-cp -r $DIR/user ~/
+cp -r $DIR/user/. ~

@@ -1,4 +1,4 @@
-xorg
+xorg-server
 networkmanager
 i3-wm
 dmenu
