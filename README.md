@@ -1,16 +1,17 @@
 # arch_setup
 My arch setup
 
-![](https://i.imgur.com/poRBL6j.png)
-![](https://i.imgur.com/1CtQREk.png)
+![](https://i.imgur.com/XtFqvZ4.png)
+![](https://i.imgur.com/BKA8QB2.png)
 
 task               | app
 ------------------ | ---
 os                 | arch
 shell              | fish
 de                 | i3-wm
-browser            | librewolf
-filemanager        | pcmanfm
+theme              | material dark compact
+browser            | vivaldi
+filemanager        | ranger
 code editor        | visual-studio-code-insiders
 text editor        | vim
 

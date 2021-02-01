@@ -9,7 +9,6 @@ rm -rf $DIR/user/
 #create dirs
 mkdir $DIR/user
 mkdir $DIR/user/.config
-mkdir $DIR/user/.themes
 mkdir $DIR/user/.scripts
 
 # copy configs
