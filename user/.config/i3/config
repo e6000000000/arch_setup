@@ -8,7 +8,7 @@ set $TERMINAL kitty
 
 # colors
 set $bg_color #000000
-set $fg_color #073642
+set $fg_color #2a2a2a
 set $tx_color #fffff0
 
 # workspaces
@@ -23,12 +23,11 @@ set $ws8 "8:八"
 set $ws9 "9:九"
 set $ws10 "10:十"
 
-
 # hotkeys_______________________________________________________________________
 bindsym $mod+Return exec $TERMINAL
 bindsym $mod+d exec "dmenu_run -nf '$tx_color' -nb '$bg_color' -sb '$fg_color' -sf '$tx_color' -fn 'DejaVu Sans-10' -p ''"
 bindsym Print exec flameshot gui
-bindsym $mod+c exec $TERMINAL -e ranger
+bindsym $mod+c exec pcmanfm
 bindsym $mod+x exec code-insiders
 bindsym $mod+z exec vivaldi-stable
 
@@ -37,17 +36,18 @@ bindsym $mod+z exec vivaldi-stable
 # autorun_______________________________________________________________________
 
 # i3 autotiling
-exec autotiling 
+exec_always autotiling 
 
 # mouse props
 exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "libinput Accel Speed" -1
 exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "Coordinate Transformation Matrix" 2.6 0 0 0 2.6 0 0 0 1
 
 # desktop bg
-exec ~/.scripts/anime_bg/anime_bg.sh
+#exec ~/.scripts/anime_bg/anime_bg.sh
+
 
 # apps
-exec compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=1 --fade-out-step=1
+#exec compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=2 --fade-out-step=2
 exec flameshot
 exec discord
 exec telegram-desktop
@@ -81,10 +81,15 @@ font pango:DejaVu Sans 10
 
 # id appearance_________________________________________________________________
 
+# gaps
+gaps inner 2
+gaps outer -2
+
+
 # window borders
-default_border pixel 1
-default_floating_border pixel 1
-hide_edge_borders both
+default_border pixel 0
+default_floating_border pixel 0
+hide_edge_borders none 
 
 # colors
 # class                 border    backgr.   text      indicator child_border

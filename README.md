@@ -9,7 +9,7 @@ task               | app
 os                 | arch
 shell              | fish
 de                 | i3-wm
-browser            | vivaldi & firefox
+browser            | librewolf
 filemanager        | pcmanfm
 code editor        | visual-studio-code-insiders
 text editor        | vim

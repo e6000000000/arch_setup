@@ -21,9 +21,6 @@ cp -r ~/.config/fish $DIR/user/.config/
 # copy scripts
 cp -r ~/.scripts $DIR/user/
 
-# copy themes
-cp -r ~/.themes $DIR/user/
-
 # copy vimrc
 cp ~/.vimrc $DIR/user/
 

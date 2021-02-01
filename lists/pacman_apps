@@ -1,9 +1,8 @@
 xorg-server
 networkmanager
-i3-wm
+i3-gaps
 dmenu
 kitty
-vivaldi
 torbrowser-launcher
 flameshot
 alsa-utils
@@ -30,3 +29,5 @@ sassc
 gtk-engine-murrine
 gnome-themes-extra
 breeze-icons
+materia-gtk-theme
+wireshark-qt
