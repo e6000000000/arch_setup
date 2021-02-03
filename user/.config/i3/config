@@ -42,6 +42,9 @@ exec_always autotiling
 exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "libinput Accel Speed" -1
 exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "Coordinate Transformation Matrix" 2.6 0 0 0 2.6 0 0 0 1
 
+# key repeat rate
+exec xset r rate 200 25
+
 # desktop bg
 #exec ~/.scripts/anime_bg/anime_bg.sh
 
