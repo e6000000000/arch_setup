@@ -40,5 +40,6 @@ if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc
 
 ## vscode extensions
 * Theme - Black Ocean
+* Vim
 * GitLens
 * Python

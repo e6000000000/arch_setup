@@ -59,7 +59,6 @@ exec telegram-desktop
 exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
 exec_always "setxkbmap -layout us,ru"
 
-
 # apps show settings____________________________________________________________
 
 # assigns
