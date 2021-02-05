@@ -16,6 +16,7 @@ cp -r ~/.config/i3 $DIR/user/.config/
 cp -r ~/.config/polybar $DIR/user/.config/
 cp -r ~/.config/kitty $DIR/user/.config/
 cp -r ~/.config/fish $DIR/user/.config/
+cp -r ~/.config/htop $DIR/user/.config/
 
 # copy scripts
 cp -r ~/.scripts $DIR/user/
