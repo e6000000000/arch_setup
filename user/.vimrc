@@ -7,7 +7,6 @@ call vundle#begin()
 	Plugin 'VundleVim/Vundle.vim'
 	Plugin 'preservim/nerdtree'
 	Plugin 'tpope/vim-commentary'
-	Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -37,4 +36,4 @@ set nobackup
 set nowritebackup
 
 " autostart NerdTree
-autocmd VimEnter * NERDTree
+"" autocmd VimEnter * NERDTree
