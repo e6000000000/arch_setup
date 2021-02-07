@@ -32,6 +32,8 @@ if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc
 * Dark Reader
 * Cookie-Editor
 * Volume Manager
+* Now Streaming - Twitch
+* Vimium
 
 ## tor extensions
 * Trace
@@ -39,7 +41,7 @@ if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc
 * uBlock Origin
 
 ## vscode extensions
-* Theme - Black Ocean
+* Theme - Abyss 
 * Vim
 * GitLens
 * Python

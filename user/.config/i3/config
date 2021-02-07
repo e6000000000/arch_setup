@@ -28,7 +28,7 @@ bindsym $mod+Return exec $TERMINAL
 bindsym $mod+d exec "dmenu_run -nf '$tx_color' -nb '$bg_color' -sb '$fg_color' -sf '$tx_color' -fn 'DejaVu Sans-10' -p ''"
 bindsym Print exec flameshot gui
 bindsym $mod+c exec $TERMINAL -e ranger
-bindsym $mod+x exec code-insiders
+bindsym $mod+x exec code
 bindsym $mod+z exec vivaldi-stable
 
 
