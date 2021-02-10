@@ -1,18 +1,18 @@
 # arch_setup
 My arch setup
 
-![](https://i.imgur.com/XtFqvZ4.png)
-![](https://i.imgur.com/BKA8QB2.png)
+![](https://i.imgur.com/Lt35zdS.png)
+![](https://i.imgur.com/OfLB4yH.png)
 
-task               | app
+task               | solution
 ------------------ | ---
 os                 | arch
 shell              | fish
-de                 | i3-wm
+de                 | i3-gaps
 theme              | material dark compact
 browser            | vivaldi
-filemanager        | ranger
-code editor        | visual-studio-code-insiders
+filemanager        | pcmanfm
+code editor        | code
 text editor        | vim
 
 # installation
