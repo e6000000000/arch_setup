@@ -1,7 +1,7 @@
 " hotkeys
 nnoremap <Space> <C-W>gf
-nnoremap <C-PageUp> :tabprevious<CR>
-nnoremap <C-PageDown> :tabnext<CR>
+nnoremap <C-H> :tabprevious<CR>
+nnoremap <C-L> :tabnext<CR>
 
 " line numbers
 set number
@@ -27,5 +27,5 @@ set noswapfile
 set nobackup
 set nowritebackup
 
-" autostart NerdTree
-"" autocmd VimEnter * NERDTree
+" fix colorscheme in tmux
+set background=dark

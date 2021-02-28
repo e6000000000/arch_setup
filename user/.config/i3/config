@@ -27,7 +27,7 @@ set $ws10 "10:十"
 bindsym $mod+Return exec $TERMINAL
 bindsym $mod+d exec "dmenu_run -nf '$tx_color' -nb '$bg_color' -sb '$fg_color' -sf '$tx_color' -fn 'DejaVu Sans-10' -p ''"
 bindsym Print exec flameshot gui
-bindsym $mod+c exec $TERMINAL -e ranger
+bindsym $mod+c exec pcmanfm
 bindsym $mod+x exec code
 bindsym $mod+z exec vivaldi-stable
 
@@ -42,15 +42,12 @@ exec_always autotiling
 exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "libinput Accel Speed" -1
 exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "Coordinate Transformation Matrix" 2.6 0 0 0 2.6 0 0 0 1
 
-# key repeat rate
-exec xset r rate 200 25
-
 # desktop bg
 #exec ~/.scripts/anime_bg/anime_bg.sh
 
 
 # apps
-#exec compton --active-opacity 1 -e 1 -i 0.97 -m 0.97 --no-fading-openclose --vsync --fade-delta=0 --fade-in-step=2 --fade-out-step=2
+exec compton --active-opacity 1 -e 1 -i 1 -m 1 --vsync --fade-delta=3
 exec flameshot
 exec discord
 exec telegram-desktop
@@ -67,10 +64,6 @@ assign [class="Telegram"] $ws8
 
 # special windows preferences
 for_window [class="flameshot"] floating enable
-assign [class="discord"] $ws9
-assign [class="discord"] $ws9
-assign [class="Telegram"] $ws8
-assign [class="Telegram"] $ws8
 
 
 # font__________________________________________________________________________
