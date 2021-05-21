@@ -103,11 +103,11 @@ label-urgent-padding = 1
 type = internal/date
 interval = 1
 
-date =
-date-alt = "%m.%d"
+date = %a %m.%d
+date-alt = 
 
 time = %I:%M %P
-time-alt = %I:%M %P 
+time-alt = время щас 12:15
 
 label = %date% %time%
 

@@ -39,15 +39,15 @@ bindsym $mod+z exec vivaldi-stable
 exec_always autotiling 
 
 # mouse props
-exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "libinput Accel Speed" -1
-exec xinput set-prop "Kingston HyperX Pulsefire FPS Gaming Mouse" "Coordinate Transformation Matrix" 2.6 0 0 0 2.6 0 0 0 1
+exec xinput set-prop "SteelSeries SteelSeries Rival 3" "libinput Accel Speed" -1
 
 # desktop bg
 #exec ~/.scripts/anime_bg/anime_bg.sh
+exec feh --bg-scale ~/Downloads/anime.png
 
 
 # apps
-exec compton --active-opacity 1 -e 1 -i 1 -m 1 --vsync --fade-delta=3
+#exec compton --active-opacity 1 -e 1 -i 1 -m 1 --vsync --fade-delta=3
 exec flameshot
 exec discord
 exec telegram-desktop
