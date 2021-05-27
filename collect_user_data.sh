@@ -10,6 +10,7 @@ rm -rf $DIR/user/
 mkdir $DIR/user
 mkdir $DIR/user/.config
 mkdir $DIR/user/.scripts
+mkdir $DIR/user/.bg
 
 # copy configs
 cp -r ~/.config/i3 $DIR/user/.config/
@@ -20,6 +21,9 @@ cp -r ~/.config/htop $DIR/user/.config/
 
 # copy scripts
 cp -r ~/.scripts $DIR/user/
+
+# copy backgrounds
+cp -r ~/.bg $DIR/user/
 
 # copy vimrc
 cp ~/.vimrc $DIR/user/

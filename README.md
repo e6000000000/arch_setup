@@ -1,7 +1,7 @@
 # arch_setup
 My arch setup
 
-![](https://i.imgur.com/Lt35zdS.png)
+![](https://i.imgur.com/2WMvxSM.jpg)
 ![](https://i.imgur.com/OfLB4yH.png)
 
 task               | solution
