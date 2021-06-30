@@ -42,7 +42,7 @@ exec_always autotiling
 exec xinput set-prop "SteelSeries SteelSeries Rival 3" "libinput Accel Speed" -1
 
 # desktop bg
-#exec ~/.scripts/anime_bg/anime_bg.sh
+#exec ~/.scripts/anime_bg/anime_bg.sh #random anime bg from site
 exec feh --bg-center ~/.bg/bg1.png
 
 
@@ -55,6 +55,9 @@ exec telegram-desktop
 # keymaps
 exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
 exec_always "setxkbmap -layout us,ru"
+
+# scripts in ~/.scripts/onstart
+exec fish ~/.scripts/onstart.fish
 
 # apps show settings____________________________________________________________
 
