@@ -15,6 +15,16 @@ filemanager        | pcmanfm
 code editor        | code
 text editor        | vim
 
+
+# preinstallation
+to setup network from `arch-chroot`
+```
+pacman -S networkmanager
+systemctl enable NetworkManager.service
+systemctl start NetworkManager.service
+nmcli con # to know your connection name
+nmcli con mod "connection name" ipv4.dns "8.8.8.8 8.8.4.4"
+```
 # installation
 ```
 git clone https://github.com/e6000000000/arch_setup.git
