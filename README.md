@@ -41,12 +41,15 @@ if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc
 * SponsorBlock
 * Dark Reader
 * Cookie-Editor
-* Volume Manager
+* JSON Formatter
+* SoundFixer
+* YouTube NonStop
+* TTV LOL
 * Now Streaming - Twitch
-* Vimium
 
 ## tor extensions
 * Trace
+* Canvas Defender
 * AudioContext Fingerprint Defender
 * uBlock Origin
 
