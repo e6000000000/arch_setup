@@ -20,7 +20,7 @@ xarchiver
 python3
 python-pip
 git
-vim
+neovim
 screenfetch
 gtk3
 sassc

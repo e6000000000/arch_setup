@@ -13,7 +13,7 @@ theme              | material dark compact
 browser            | vivaldi
 filemanager        | pcmanfm
 code editor        | code
-text editor        | vim
+text editor        | neovim
 
 
 # preinstallation
@@ -54,7 +54,7 @@ if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc
 * uBlock Origin
 
 ## vscode extensions
-* Theme - Abyss 
+* Theme - VDark
 * Vim
 * GitLens
 * Python

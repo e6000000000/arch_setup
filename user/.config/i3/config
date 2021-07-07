@@ -117,6 +117,7 @@ floating_modifier $mod
 
 # kill focused window
 bindsym $mod+q kill
+bindsym $mod+Shift+q [workspace=$ws2] kill
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left

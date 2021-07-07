@@ -18,15 +18,14 @@ cp -r ~/.config/polybar $DIR/user/.config/
 cp -r ~/.config/kitty $DIR/user/.config/
 cp -r ~/.config/fish $DIR/user/.config/
 cp -r ~/.config/htop $DIR/user/.config/
+cp -r ~/.config/nvim $DIR/user/.config/
+cp ~/.config/flake8 $DIR/user/.config/
 
 # copy scripts
 cp -r ~/.scripts $DIR/user/
 
 # copy backgrounds
 cp -r ~/.bg $DIR/user/
-
-# copy vimrc
-cp ~/.vimrc $DIR/user/
 
 # copu xinitrc
 cp ~/.xinitrc $DIR/user/

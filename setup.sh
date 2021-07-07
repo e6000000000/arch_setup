@@ -20,3 +20,6 @@ bash $DIR/scripts/install_fish.sh
 
 # copy config files
 cp -r $DIR/user/. ~
+
+# python libs
+pip install pynvim pyflakes flake8 rope
