@@ -58,7 +58,9 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin('~/.vim/bundle')
-Plug 'nvie/vim-flake8'
+Plug 'preservim/nerdtree'
+Plug 'dense-analysis/ale'
+"Plug 'nvie/vim-flake8'
 call plug#end()
 filetype plugin indent on
 
@@ -73,9 +75,9 @@ let g:mapleader = ","
 nnoremap <Space> <C-W>gf
 nnoremap <C-J> :tabprevious<CR>
 nnoremap <C-K> :tabnext<CR>
-nnoremap <C-H> :Explore<CR>
+nnoremap <leader>d :NERDTree<CR>
 
-" python
-autocmd BufWritePost *.py call Flake8()
-autocmd BufReadPost *.py silent call Flake8()
-let g:flake8_show_in_gutter=1
+" ale
+let g:ale_linters = {'python': ['flake8']}
+let g:ale_fixers = {'python': ['black']}
+let g:ale_fix_on_save = 1

@@ -22,4 +22,4 @@ bash $DIR/scripts/install_fish.sh
 cp -r $DIR/user/. ~
 
 # python libs
-pip install pynvim pyflakes flake8 rope
+pip install pynvim pyflakes flake8 rope black
