@@ -9,6 +9,8 @@ rm -rf $DIR/user/
 #create dirs
 mkdir $DIR/user
 mkdir $DIR/user/.config
+mkdir $DIR/user/.config/Code\ -\ OSS
+mkdir $DIR/user/.config/Code\ -\ OSS/User
 mkdir $DIR/user/.scripts
 mkdir $DIR/user/.bg
 
@@ -20,6 +22,8 @@ cp -r ~/.config/fish $DIR/user/.config/
 cp -r ~/.config/htop $DIR/user/.config/
 cp -r ~/.config/nvim $DIR/user/.config/
 cp ~/.config/flake8 $DIR/user/.config/
+cp ~/.config/Code\ -\ OSS/User/settings.json $DIR/user/.config/Code\ -\ OSS/User
+cp ~/.config/Code\ -\ OSS/User/keybindings.json $DIR/user/.config/Code\ -\ OSS/User
 
 # copy scripts
 cp -r ~/.scripts $DIR/user/

@@ -1,0 +1,19 @@
+{
+    "python.linting.enabled": true,
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "VDark",
+    "keyboard.dispatch": "keyCode",
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "vim.smartRelativeLine": true,
+    "python.testing.pytestEnabled": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.panel.defaultLocation": "right",
+    "comments.openPanel": "openOnSessionStart",
+    "workbench.panel.opensMaximized": "never",
+    "window.menuBarVisibility": "toggle"
+}
