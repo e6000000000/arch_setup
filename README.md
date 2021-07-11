@@ -2,7 +2,6 @@
 My arch setup
 
 ![](https://i.imgur.com/2WMvxSM.jpg)
-![](https://i.imgur.com/OfLB4yH.png)
 
 task               | solution
 ------------------ | ---
@@ -58,3 +57,4 @@ if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc
 * Vim
 * GitLens
 * Python
+* Docker
