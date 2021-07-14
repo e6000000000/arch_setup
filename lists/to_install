@@ -22,6 +22,8 @@ python3
 python-pip
 git
 neovim
+xclip
+ctags
 screenfetch
 gtk3
 sassc
@@ -48,3 +50,4 @@ ghc
 ghc-static
 cabal-install
 ormolu
+hasktags

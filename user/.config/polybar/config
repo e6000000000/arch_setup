@@ -11,10 +11,10 @@
 ;==========================================================
 
 [colors]
-background = #000000
+background = #e5000000
 foreground = #FFFFF0
 unfocused = #373730
-alert = #470000
+alert = #002857
 
 
 [bar/mybar]
@@ -45,7 +45,7 @@ font-0 = DejaVuSans:size=10.5;4
 font-1 = Koruri:size=10.5:style=Bold;3
 
 modules-left = i3
-modules-center = 
+modules-center =
 modules-right = date
 
 tray-position = none
@@ -107,7 +107,7 @@ date = %a %m.%d
 date-alt = 
 
 time = %I:%M %P
-time-alt = время щас 12:15
+time-alt = time
 
 label = %date% %time%
 
