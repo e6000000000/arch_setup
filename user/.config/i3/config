@@ -29,9 +29,7 @@ bindsym $mod+d exec "dmenu_run -nf '$tx_color' -nb '$bg_color' -sb '$fg_color' -
 bindsym Print exec flameshot gui
 bindsym $mod+c exec pcmanfm
 bindsym $mod+x exec code
-bindsym $mod+z exec vivaldi-stable
-
-
+bindsym $mod+z exec firefox
 
 # autorun_______________________________________________________________________
 
@@ -73,7 +71,7 @@ for_window [class="flameshot"] floating enable
 font pango:DejaVu Sans 10
 
 
-# don't know what is it, maybe it forced lock screen____________________________
+# don't know what is it_________________________________________________________
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 

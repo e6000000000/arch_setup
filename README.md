@@ -9,7 +9,7 @@ os                 | arch
 shell              | fish
 de                 | i3-gaps
 theme              | material dark compact
-browser            | vivaldi
+browser            | firefox
 filemanager        | pcmanfm
 code editor        | code
 text editor        | neovim
@@ -35,12 +35,11 @@ to install nvidia drivers run `bash scripts/nvidia_drivers.sh`
 if your gpu is not nvidia maybe you shood remove first 3 lines in your `.xinitrc`
 
 # apps settings
-## vivaldi extensions
+## firefox extensions
 * uBlock Origin
 * SponsorBlock
 * Dark Reader
 * Cookie-Editor
-* JSON Formatter
 * SoundFixer
 * YouTube NonStop
 * TTV LOL

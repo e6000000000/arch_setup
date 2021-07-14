@@ -18,6 +18,12 @@ syntax on
 set clipboard=unnamed
 
 " normalize tab
+function SetTabIndent2()
+    set tabstop=2
+    set softtabstop=2
+    set shiftwidth=2
+endfunction
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -78,6 +84,12 @@ nnoremap <C-K> :tabnext<CR>
 nnoremap <leader>d :NERDTree<CR>
 
 " ale
-let g:ale_linters = {'python': ['flake8']}
-let g:ale_fixers = {'python': ['black']}
+let g:ale_linters = {
+\   'python': ['flake8'],
+\   'haskell': ['ghc']
+\}
+let g:ale_fixers = {
+\    'python': ['black'],
+\    'haskell': ['ormolu']
+\}
 let g:ale_fix_on_save = 1

@@ -7,6 +7,7 @@ flameshot
 alsa-utils
 pulseaudio
 feh
+vlc
 compton
 keepassxc
 zip
@@ -29,7 +30,6 @@ gnome-themes-extra
 breeze-icons
 materia-gtk-theme
 wireshark-qt
-nodejs
 tmux
 code
 pcmanfm
@@ -43,3 +43,8 @@ man
 unrar
 docker
 docker-compose
+cronie
+ghc
+ghc-static
+cabal-install
+ormolu
